@@ -40,7 +40,7 @@ Source1:        http://dist.codehaus.org/stax/jars/stax-%{version}.pom
 Source2:        http://dist.codehaus.org/stax/jars/stax-api-%{apiver}.pom
 Name:           %{?scl_prefix}bea-stax
 Version:        1.2.0
-Release:        14.1%{?dist}
+Release:        14.2%{?dist}
 License:        ASL 1.1 and ASL 2.0
 BuildArch:      noarch
 
@@ -99,6 +99,9 @@ ant all javadoc
 %license ASF2.0.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.2.0-14.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.2.0-14.1
 - Automated package import and SCL-ization
 
